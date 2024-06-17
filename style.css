@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8e5e5;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.custom-hr {
+    border: none;
+    height: 2px;
+    background-color: #000;
+}
+
+.navbar {
+    display: fixed;
+    top: 0px;
+}
+
+.navbar .fab {
+    margin-left: 30px;
+    transition: all .2s ease;
+}
+
+.navbar .fab:hover {
+    transform: scale(1.8);
+}
+
+.navbar-nav {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-item {
+    margin-left: 50px;
+    transition: all .2s ease;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+.img-home {
+    transition: all .4s ease;
+}
+
+.img-home:hover {
+    transform: scale(0.9);
+}
+
+.header .h1 {
+    padding: 10px;
+}
+
+#store {
+    transition: all .2s ease;
+}
+
+#store:hover {
+    transform: scale(1.1);
+}
+
+.card-body img {
+    transition: all .3s ease;
+}
+
+.main img:hover {
+    transform: scale(1.1);
+}
+
+.main .btn:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.card {
+    background: transparent;
+}
+
+#models {
+    transition: all .2s ease;
+}
+
+#models:hover {
+    transform: scale(1.1);
+}
+
+/* Address */
+.gradient-custom {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa;
+}
+
+
+.input-custom {
+    background-color: white;
+}
+
+.white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black;
+    margin-top: 50px;
+}
